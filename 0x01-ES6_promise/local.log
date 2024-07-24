@@ -4,15 +4,10 @@
  will not be shown, you would have to be root to see it all.)
 (Not all processes could be identified, non-owned process info
  will not be shown, you would have to be root to see it all.)
-Tue Jul 23 2024 14:23:00:120 GMT+0100 (WAT) -- Starting configuration console on http://localhost:45454
-Tue Jul 23 2024 14:23:04:155 GMT+0100 (WAT) -- [INFO] Started the BrowserStack Binary server on 45691, PID: 1389349
-Tue Jul 23 2024 14:23:05:769 GMT+0100 (WAT) -- [SUCCESS] You can now access your local server(s) in our remote browser
+Wed Jul 24 2024 15:45:13:146 GMT+0100 (WAT) -- Starting configuration console on http://localhost:45454
+Wed Jul 24 2024 15:45:16:269 GMT+0100 (WAT) -- [INFO] Started the BrowserStack Binary server on 45691, PID: 22460
+Wed Jul 24 2024 15:45:17:275 GMT+0100 (WAT) -- [SUCCESS] You can now access your local server(s) in our remote browser
 
-Tue Jul 23 2024 14:23:07:80 GMT+0100 (WAT) -- Press Ctrl-C to exit
+Wed Jul 24 2024 15:45:18:360 GMT+0100 (WAT) -- Press Ctrl-C to exit
 
-
-Tue Jul 23 2024 16:51:41:639 GMT+0100 (WAT) --  *** Error: The connection to BrowserStack failed 10 attempts. Please try again.
-
-You need to allow outbound traffic for *.browserstack.com in your corporate firewall to setup local testing.
-For any other problem please contact support@browserstack.com.
 
