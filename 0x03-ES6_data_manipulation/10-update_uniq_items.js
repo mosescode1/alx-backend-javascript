@@ -1,5 +1,6 @@
 #!/usr/bin/node
 /*eslint-disable*/
+
 export default function updateUniqueItems(mapArg) {
 	if (!(mapArg instanceof Map)) throw new Error("Cannot process");
 
