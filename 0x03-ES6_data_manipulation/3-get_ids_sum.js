@@ -1,6 +1,5 @@
 #!/usr/bin/node
 /*eslint-disable*/
 export default function getStudentIdsSum(students = []) {
-	const id = students.map(student => student.id);
-	return id.reduce((acc, current) => acc + current, 0);
+	return students.reduce((acc, cur) => acc + cur.id, 0);
 }
