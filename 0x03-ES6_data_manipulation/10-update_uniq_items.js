@@ -1,14 +1,9 @@
 #!/usr/bin/node
 /*eslint-disable*/
 export default function updateUniqueItems(mapArg) {
-	for (const [key, value] of mapArg) {
-		if (value == 1) {
-			try {
+	if (!(mapArg instanceof Map)) throw new Error("Cannot process");
 
-				mapArg.set(key, 100);
-			} catch (err) {
-				throw new Error("Cannot process");
-			}
-		}
+	for (const [key, value] of mapArg) {
+		if (value == 1) mapArg.set(key, 100);
 	}
 }
