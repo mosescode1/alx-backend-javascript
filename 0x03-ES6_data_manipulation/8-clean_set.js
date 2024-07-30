@@ -1,7 +1,7 @@
 #!/usr/bin/node
 /*eslint-disable*/
 export default function cleanSet(set, startString) {
-	if (startString === undefined || startString === '') return '';
+	if (startString === undefined || startString === '') return;
 	const arr = [];
 	set.forEach(function (value) {
 		if (value.startsWith(startString)) {
