@@ -4,6 +4,6 @@
  * @param {String} msg The message to display.
  */
 const displayMessage = (message) => {
-	console.log(message);
+  console.log(message);
 };
 module.exports = displayMessage;
