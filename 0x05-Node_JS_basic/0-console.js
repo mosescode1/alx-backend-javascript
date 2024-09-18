@@ -1,6 +1,9 @@
 #!/usr/bin/node
-// ! 0. Executing basic javascript with Node JS
+/**
+ * Displays a message on the STDOUT.
+ * @param {String} msg The message to display.
+ */
 const displayMessage = (message) => {
-	process.stdout.write(`${message}\n`);
+	console.log(message);
 }
 module.exports = displayMessage;
