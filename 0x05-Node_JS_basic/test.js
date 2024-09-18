@@ -1,10 +1,3 @@
-const countStudents = require('./3-read_file_async');
+const displayMessage = require('./0-console');
 
-countStudents("database.csv")
-	.then(() => {
-		console.log("Done!");
-	})
-	.catch((error) => {
-		console.log(error);
-	});
-console.log("After!")
+displayMessage('Hello NodeJS!');
